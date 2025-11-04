@@ -20,10 +20,10 @@ O projeto atingiu a meta de acurácia, comprovando a eficácia da arquitetura mo
 
 ## ⚙️ 2. ARQUITETURA E TECNOLOGIAS
 
-O projeto foi construído sobre uma arquitetura de dados modular em Python, garantindo a Portabilidade (RNF05) [cite: 22-23].
+O projeto foi construído sobre uma arquitetura de dados modular em Python, garantindo a Portabilidade (RNF05).
 
 * **Fonte de Dados:** GLPI (MySQL/MariaDB).
-* **Processamento (ETL):** Módulos em Python (`pandas`), responsáveis pela limpeza de dados, aplicação da Taxonomia de Categorias (RN01) [cite: 18-19][cite_start], e criação da Tabela Fato Diária (RF02).
+* **Processamento (ETL):** Módulos em Python (`pandas`), responsáveis pela limpeza de dados, aplicação da Taxonomia de Categorias (RN01), e criação da Tabela Fato Diária (RF02).
 * **Modelo Otimizado:** **XGBoost Otimizado**, selecionado após testes de *backtesting* e *feature engineering* complexo (*lags*, *rolling mean* e variáveis exógenas simuladas).
 * **Entrega (API):** **FastAPI** (Python), que serve o Dataset Consolidado e os KPIs para o Power BI.
 * **Visualização:** **Power BI**(Consumindo a API para Dashboards de Previsão e Gargalos/KPIs - RF09).
