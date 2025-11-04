@@ -1,0 +1,17 @@
+#Gerenciamento de Dados
+pandas
+SQLAlchemy
+pymysql
+python-dotenv
+
+#Modelagem
+scikit-learn
+statsmodels
+prophet
+xgboost
+
+#Serviço de API
+fastapi
+uvicorn
+
+pyarrow
