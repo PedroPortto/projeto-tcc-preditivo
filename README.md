@@ -14,7 +14,7 @@
 
 | Métrica de Sucesso | Meta (CA-S1) | Resultado Reportado | Status |
 | :--- | :--- | :--- | :--- |
-| **MAPE Global (Medidor de Erro)** | [cite_start]$\le 15\%$ [cite: 45] | **14.50%** | ✅ **CUMPRIDO** |
+| **MAPE Global (Medidor de Erro)** | $\le 15\%$ | **14.50%** | ✅ **CUMPRIDO** |
 
 O projeto atingiu a meta de acurácia, comprovando a eficácia da arquitetura modular para a previsão de demanda.
 
